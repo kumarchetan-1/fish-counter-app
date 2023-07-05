@@ -1,0 +1,122 @@
+body {
+background-image: url("fish_count.jpeg");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+height: 100vh;
+color: white;
+}
+
+.container {
+background: rgba(31,37,89,.46);
+max-width: 80%;
+margin: auto;
+border: 3px solid #e9e9e9;
+border-radius: 10px;
+padding: 40px;
+-webkit-user-drag: element;
+position: absolute;
+}
+
+.instruction-conta{
+    padding: 10px 20px;
+    background: #00dfa2;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.instruction-conta p{ 
+ margin: 0;   
+}
+
+h1 {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+h2 {
+font-size: 50px;
+margin-top: 0;
+margin-bottom: 20px;
+}
+
+.buttons-container{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;    
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+}
+
+button {
+border-radius: 50px;
+color: #fff;
+-webkit-filter: drop-shadow(0 2px 6px rgba(31,37,89,.16));
+filter: drop-shadow(0 2px 6px rgba(31,37,89,.16));
+padding: 16px 24px;
+transition: .2s ease-in-out;
+font-weight: bold;
+width: 200px;
+outline: none;
+cursor: pointer;
+border: 1px solid transparent;
+}
+
+#decrement-btn{
+    background: #e8481d;
+    color: #fff;
+}
+
+#decrement-btn:hover {
+    background: #fff;
+    color: #e8481d;
+    border-color: #e8481d;
+}
+
+button:focus{
+    outline: none;
+}
+
+#increment-btn {
+background-color: #00dfa2;
+border: 1px solid #00dfa2;
+}
+
+#increment-btn:hover {
+background-color: #fff;
+border: 1px solid #00dfa2;
+color: #00dfa2;
+}
+
+#save-btn {
+background-color: #fff;
+border: 1px solid #0079ff;
+color: #0079ff;
+}
+
+#clear-btn {
+    background: white;
+    color: #ff0061;
+    border: 1px solid #ff0061;
+    outline: none;
+    
+}
+
+#clear-btn:hover {
+    background: #ff0061;
+    color: #fff;
+}
+
+#save-btn:hover {
+background-color: #0079ff;
+border: 1px solid #0079ff;
+color: #fff;
+}
+
+#save-el {
+font-weight: bold;
+}
+
